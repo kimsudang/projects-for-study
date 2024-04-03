@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Game</title>
+</head>
+<body>
+    <h1>Random Number Game</h1>
+    <b>Generate a number between 0 and </b><input type="number" min="0" id="maxNum">
+
+    <br>
+    <p><span>Guess the number: </span><input type="number" min="0" id="myNum"><button id="btn">play!</button></p>
+    <p>값을 입력하지 않으면 기본으로 0이 들어갑니다.</p>
+    <p>You chose: <span id="choseNum">0</span>, the machine chose: <span id="machineNum">0</span>.</p>
+    <p><b id="result"></b></p>
+    <script src="script.js"></script>
+</body>
+</html>
